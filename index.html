@@ -8,32 +8,33 @@
     <title>Guess the Number</title>
   </head>
   <body>
-    <header>
-      <p class="between">Between 1 and 50</p>
-    </header>
-    <main>
-      <section class="first-section">
-        <div class="guess-title"><h1>Guess My Number!</h1></div>
-        <div class="number-container">
-          <div class="number-card">
-            <p class="secret-number">?</p>
-          </div>
-        </div>
-      </section>
-      <section class="second-section">
-        <div class="left-content">
-          <input class="guess" type="text" />
-          <button class="check">Check!</button>
-        </div>
-        <div class="right-content">
-          <p>Start guessing...</p>
-          <p>Score</p>
-          <p>Highscore</p>
-        </div>
-      </section>
-      <section class="restart-section">
+    <div class="site-container">
+      <header>
+        <p class="between">Between 1 and 50</p>
         <button class="restart">Again!</button>
-      </section>
-    </main>
+      </header>
+      <main>
+        <section class="first-section">
+          <h1 class="guess-title">Guess My Number!</h1>
+          <p class="secret-number">?</p>
+        </section>
+        <section class="second-section">
+          <div class="left-content">
+            <input class="guess" type="text" />
+            <button class="check">Check!</button>
+          </div>
+          <div class="right-content">
+            <p class="message">Start guessing...</p>
+            <p class="label-score">💯 Score: <span class="score">20</span></p>
+            <p class="label-highscore">
+              🏆 Highscore: <span class="highscore">0</span>
+            </p>
+          </div>
+        </section>
+        <footer>
+          <p>Something</p>
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
