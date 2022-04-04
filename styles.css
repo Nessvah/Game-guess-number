@@ -33,7 +33,7 @@ main {
 }
 
 .first-section {
-    position: relative;
+  position: relative;
   height: 15vh;
   display: flex;
   align-items: center;
@@ -68,7 +68,7 @@ main {
 }
 
 .right-content {
-  max-width: 40%;
+  max-width: 50%;
   height: 45%;
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@ p {
 }
 
 .secret-number {
-    position: absolute;
+  position: absolute;
   font-size: 4rem;
   background: #FFFFFC;
   width: 12rem;
